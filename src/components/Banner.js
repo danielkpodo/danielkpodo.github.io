@@ -22,7 +22,11 @@ const Banner = () => {
           </p>
         </div>
         <div className="col s12 l6">
-          <img src={narh} alt="programmer coding" className="programmer-img" />
+          <img
+            src={narh}
+            alt="Daniel Narh sitting as a programmer"
+            className="programmer-img"
+          />
         </div>
       </div>
     </div>
