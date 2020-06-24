@@ -2,9 +2,9 @@
 @import "./scss/partials/navbar";
 @import "./scss/partials/banner";
 
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Oswald:wght@400;700&display=swap");
 
 body {
-  font-family: "Oswald", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 100%;
 }
