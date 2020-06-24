@@ -1,0 +1,17 @@
+.banner {
+  padding-top: 3.5rem;
+  padding-bottom: 5rem;
+  h1 {
+    font: {
+      weight: 700;
+      size: 3.5rem;
+    }
+    color: $masthead-text;
+  }
+
+  p {
+    color: $banner-paragraph;
+    line-height: 2.3125rem;
+    font-size: 1.3125rem;
+  }
+}

@@ -1,5 +1,7 @@
 import React, { Fragment, useState, useEffect } from "react";
+import Logo from "./Logo";
 import M from "materialize-css";
+import { MdSort } from "react-icons/md";
 
 const Navbar = () => {
   const [navLinks, setNavLinks] = useState([
@@ -25,11 +27,9 @@ const Navbar = () => {
     <Fragment>
       <nav className="navbar">
         <div className="nav-wrapper container">
-          <a href="#!" className="brand-logo">
-            Narh
-          </a>
+          <Logo />
           <a href="#" data-target="mobile-demo" className="sidenav-trigger">
-            <i className="material-icons">menu</i>
+            <MdSort style={{ fontSize: "50px", paddingTop: "15px" }} />
           </a>
           <ul className="right hide-on-med-and-down">{menuLinks}</ul>
         </div>

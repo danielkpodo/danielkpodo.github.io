@@ -1,8 +1,20 @@
 .head-overview {
   background-color: $masthead-bg;
-  height: 100vh;
 }
 
 .navbar {
   background: $masthead-bg;
+  a {
+    font: {
+      size: 1.1875rem;
+      weight: 700;
+    }
+    color: $masthead-text;
+  }
+
+  .brand-logo {
+    font: {
+      size: 2rem;
+    }
+  }
 }

@@ -1,10 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
 .head-overview {
   background-color: #0f0e17;
-  height: 100vh;
 }
 
 .navbar {
   background: #0f0e17;
+}
+.navbar a {
+  font-size: 1.1875rem;
+  font-weight: 700;
+  color: #fffffe;
+}
+.navbar .brand-logo {
+  font-size: 2rem;
+}
+
+.banner {
+  padding-top: 3.5rem;
+  padding-bottom: 5rem;
+}
+.banner h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: #fffffe;
+}
+.banner p {
+  color: #a7a9be;
+  line-height: 2.3125rem;
+  font-size: 1.3125rem;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 100%;
 }
 
 /*# sourceMappingURL=App.css.map */
