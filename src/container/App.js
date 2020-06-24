@@ -1,13 +1,16 @@
 import React from "react";
 import Headroom from "react-headroom";
+import Header from "../components/navbar/Header";
+import Navbar from "../components/navbar/Navbar";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Headroom>
-        <h1>Hello World!</h1>
-      </Headroom>
+      <Header>
+        <Navbar />
+        <p>main content here</p>
+      </Header>
     </div>
   );
 }
