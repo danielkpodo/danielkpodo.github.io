@@ -1,6 +1,8 @@
 import React from "react";
 import narh from "./assets/images/narh.svg";
 import Social from "./social/Social";
+import { AwesomeButton } from "react-awesome-button";
+import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
 
 const Banner = () => {
   return (
@@ -19,6 +21,10 @@ const Banner = () => {
             voluptates veniam aspernatur obcaecati. Vel, illo maxime, sapiente
           </p>
           <Social />
+          <div className="actions">
+            <a class="waves-effect waves-light btn-small">Button</a>
+            <a class="waves-effect waves-light btn-small">Button</a>
+          </div>
         </div>
         <div className="col s12 l6">
           <img

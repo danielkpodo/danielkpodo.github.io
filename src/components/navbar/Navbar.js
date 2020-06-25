@@ -19,7 +19,9 @@ const Navbar = () => {
 
   const menuLinks = navLinks.map((item, index) => (
     <li key={index}>
-      <a href={item.path}>{item.text}</a>
+      <a href={item.path} className="hvr-grow">
+        {item.text}
+      </a>
     </li>
   ));
 
