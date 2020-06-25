@@ -16,9 +16,6 @@ const Banner = () => {
             Make an api call to github to fetch about Rerum voluptatem facere
             vitae temporibus excepturi veritatis! At architecto, provident
             voluptates veniam aspernatur obcaecati. Vel, illo maxime, sapiente
-            dolorum quam magni ipsa assumenda eos sunt voluptates non eaque
-            quos, architecto quisquam dolorem quaerat iure quibusdam officiis
-            earum! Saepe suscipit ut illo consectetur.
           </p>
         </div>
         <div className="col s12 l6">

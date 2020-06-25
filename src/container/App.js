@@ -23,6 +23,11 @@ function App() {
         className="github"
         target="_blank"
       />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti porro
+        deserunt libero nostrum! Dolorum veritatis laudantium, enim neque
+        deserunt dicta.
+      </p>
     </div>
   );
 }
