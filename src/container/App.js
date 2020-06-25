@@ -19,7 +19,7 @@ function App() {
       <GithubCorner
         href="https://github.com/danielkpodo/covid19/tree/master"
         size="55"
-        bannerColor="#ff8906"
+        bannerColor="transparent"
         className="github"
         target="_blank"
       />

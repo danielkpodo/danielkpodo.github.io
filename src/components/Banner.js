@@ -1,5 +1,6 @@
 import React from "react";
-import narh from "./narh.svg";
+import narh from "./assets/images/narh.svg";
+import Social from "./social/Social";
 
 const Banner = () => {
   return (
@@ -17,6 +18,7 @@ const Banner = () => {
             vitae temporibus excepturi veritatis! At architecto, provident
             voluptates veniam aspernatur obcaecati. Vel, illo maxime, sapiente
           </p>
+          <Social />
         </div>
         <div className="col s12 l6">
           <img
