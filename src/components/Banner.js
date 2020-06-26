@@ -16,14 +16,21 @@ const Banner = () => {
             </span>
           </h1>
           <p>
-            Make an api call to github to fetch about Rerum voluptatem facere
-            vitae temporibus excepturi veritatis! At architecto, provident
-            voluptates veniam aspernatur obcaecati. Vel, illo maxime, sapiente
+            A passionate Software Developer & Data Scientist having experience
+            building web applications with JavaScript / Reactjs / Nodejs / Flask
+            and a knack for complex data analysis with Python
           </p>
           <Social />
           <div className="actions">
-            <a className="waves-effect waves-light btn-small">Button</a>
-            <a className="waves-effect waves-light btn-small">Button</a>
+            <a
+              href="#!"
+              className="waves-effect waves-light btn-small contact "
+            >
+              Contact me
+            </a>
+            <a href="#!" className="waves-effect waves-light btn-small resume">
+              View resume
+            </a>
           </div>
         </div>
         <div className="col s12 l6">

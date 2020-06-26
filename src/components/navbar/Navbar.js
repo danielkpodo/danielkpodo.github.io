@@ -27,16 +27,17 @@ const Navbar = () => {
 
   return (
     <Fragment>
-      <nav className="navbar">
-        <div className="nav-wrapper container">
-          <Logo />
-          <a href="#" data-target="mobile-demo" className="sidenav-trigger">
-            <MdSort style={{ fontSize: "50px", paddingTop: "15px" }} />
-          </a>
-          <ul className="right hide-on-med-and-down">{menuLinks}</ul>
-        </div>
-      </nav>
-
+      <div className="navbar-fixed">
+        <nav className="navbar">
+          <div className="nav-wrapper container">
+            <Logo />
+            <a href="#" data-target="mobile-demo" className="sidenav-trigger">
+              <MdSort style={{ fontSize: "50px", paddingTop: "15px" }} />
+            </a>
+            <ul className="right hide-on-med-and-down">{menuLinks}</ul>
+          </div>
+        </nav>
+      </div>
       <ul className="sidenav" id="mobile-demo">
         {menuLinks}
       </ul>

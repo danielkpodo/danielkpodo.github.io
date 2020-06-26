@@ -23,7 +23,31 @@
   .actions {
     margin-bottom: 2.5rem;
     a {
-      margin-right: 2.5rem;
+      margin-right: 1.2rem;
     }
+  }
+}
+
+.resume {
+  background: #f25f4c;
+  text-transform: uppercase;
+  border-radius: 25px;
+  opacity: 0.7;
+  font-weight: 500;
+
+  &:hover {
+    background: #e53170;
+  }
+}
+
+.contact {
+  background: #ff8906;
+  text-transform: uppercase;
+  border-radius: 25px;
+  opacity: 0.7;
+  font-weight: 500;
+
+  &:hover {
+    background: #e53170;
   }
 }
