@@ -9,16 +9,18 @@ const Banner = () => {
       <div className="row">
         <div className="col s12 l7">
           <h1>
-            <sapn style={{ color: "#f25f4c" }}>Hi</sapn>, I'm{" "}
+            <span style={{ color: "#f25f4c" }}>Hi</span>, I'm{" "}
             <Typed
-              strings={["Narh", "Programmer", "Data Scientist"]}
-              typeSpeed={200}
-              backSpeed={120}
+              strings={[
+                "Narh",
+                "Fullstack Dev",
+                "Data Analyst",
+                "<em>MERN Dev</em>"
+              ]}
+              typeSpeed={130}
+              backSpeed={10}
               loop
             />
-            {/* <span role="img" aria-label="emoji hand">
-              🖐
-            </span> */}
           </h1>
           <p>
             A passionate Software Developer & Data Scientist having experience
