@@ -1,5 +1,4 @@
 import React from "react";
-import Headroom from "react-headroom";
 import GithubCorner from "react-github-corner";
 import Header from "../components/navbar/Header";
 import Navbar from "../components/navbar/Navbar";

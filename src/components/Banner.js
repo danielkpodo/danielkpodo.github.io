@@ -22,8 +22,8 @@ const Banner = () => {
           </p>
           <Social />
           <div className="actions">
-            <a class="waves-effect waves-light btn-small">Button</a>
-            <a class="waves-effect waves-light btn-small">Button</a>
+            <a className="waves-effect waves-light btn-small">Button</a>
+            <a className="waves-effect waves-light btn-small">Button</a>
           </div>
         </div>
         <div className="col s12 l6">

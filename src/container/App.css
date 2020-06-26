@@ -65,6 +65,9 @@
   max-width: 100%;
   display: block;
 }
+.banner .actions {
+  margin-bottom: 2.5rem;
+}
 .banner .actions a {
   margin-right: 2.5rem;
 }
