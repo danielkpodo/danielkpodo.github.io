@@ -8,11 +8,10 @@ import { FaGooglePlus } from "react-icons/fa";
 
 const Social = () => {
   const [socialIcons, setIcons] = useState([
-    { icon: <FaGithub />, path: "", title: "Github" },
-    { icon: <FaFacebook />, path: "", title: "Facebook" },
-    { icon: <FaGooglePlus />, path: "", title: "Email me" },
+    { icon: <FaGithub />, path: "", title: "Follow me on github" },
+    { icon: <FaFacebook />, path: "", title: "Friend me on facebook" },
     { icon: <FaTwitter />, path: "", title: "Follow me on twitter" },
-    { icon: <FaLinkedinIn />, path: "", title: "Connet with me on linkedin" },
+    { icon: <FaLinkedinIn />, path: "", title: "Connect with me on linkedin" },
     { icon: <FaRedditAlien />, path: "", title: "Follow me on reddit" }
   ]);
 
@@ -28,7 +27,20 @@ const Social = () => {
       {item.icon}
     </a>
   ));
-  return <div className="social-icons">{social}</div>;
+  return (
+    <div className="social-icons">
+      {social}
+      <a
+        href="mailto:kpododanielnarh@gmail.com"
+        target="_blank"
+        className="waves-effect waves-light hvr-sink"
+        style={{ fontSize: "30px", color: "#a7a9be" }}
+        title="Email me"
+      >
+        <FaGooglePlus />
+      </a>
+    </div>
+  );
 };
 
 export default Social;

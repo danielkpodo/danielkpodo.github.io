@@ -1,19 +1,24 @@
 import React from "react";
 import narh from "./assets/images/narh.svg";
 import Social from "./social/Social";
-import { AwesomeButton } from "react-awesome-button";
-import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
+import Typed from "react-typed";
 
 const Banner = () => {
   return (
     <div className="container banner">
       <div className="row">
-        <div className="col s12 l6">
+        <div className="col s12 l7">
           <h1>
-            Hello, I'm Narh{" "}
-            <span role="img" aria-label="emoji hand">
+            <sapn style={{ color: "#f25f4c" }}>Hi</sapn>, I'm{" "}
+            <Typed
+              strings={["Narh", "Programmer", "Data Scientist"]}
+              typeSpeed={200}
+              backSpeed={120}
+              loop
+            />
+            {/* <span role="img" aria-label="emoji hand">
               🖐
-            </span>
+            </span> */}
           </h1>
           <p>
             A passionate Software Developer & Data Scientist having experience
@@ -33,7 +38,7 @@ const Banner = () => {
             </a>
           </div>
         </div>
-        <div className="col s12 l6">
+        <div className="col s12 l5">
           <img
             src={narh}
             alt="Daniel Narh sitting as a programmer"
