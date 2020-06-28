@@ -27,10 +27,12 @@ const Skills = () => {
     <section className="skills" id="skills">
       <div className="section-header center-align">
         <h2>My Skills </h2>
+        <hr className="rule" />
         <p>
           I am proficient with the following languages, tools and technologies
         </p>
       </div>
+
       <div className="container">
         <div className="row">
           <div className="col l12 technologies">
