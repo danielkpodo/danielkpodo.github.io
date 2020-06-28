@@ -5,12 +5,11 @@ import { MdSort } from "react-icons/md";
 
 const Navbar = () => {
   const [navLinks, setNavLinks] = useState([
-    { text: "Home", path: "/" },
     { text: "Skills", path: "/skills", id: "#skills" },
     { text: "Experiences", path: "/experience", id: "#experience" },
     { text: "Projects", path: "/projects", id: "#projects" },
     { text: "Achievements", path: "/achievements", id: "#achievement" },
-    { text: "About", path: "/about", id: "#about" }
+    { text: "Contact", path: "/contact", id: "#contact" }
   ]);
 
   useEffect(() => {
@@ -19,7 +18,7 @@ const Navbar = () => {
 
   const menuLinks = navLinks.map((item, index) => (
     <li key={index}>
-      <a href={item.path} className="hvr-grow">
+      <a href={item.id} className="hvr-grow">
         {item.text}
       </a>
     </li>

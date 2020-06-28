@@ -14,8 +14,11 @@ const Banner = () => {
               strings={[
                 "Narh",
                 "Fullstack Dev",
+                "Js Dev",
+                "React Dev",
+                "<em>MERN Dev</em>",
                 "Data Analyst",
-                "<em>MERN Dev</em>"
+                "Python Dev"
               ]}
               typeSpeed={130}
               backSpeed={10}
