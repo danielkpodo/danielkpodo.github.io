@@ -123,9 +123,55 @@
   transform: translateY(8px);
 }
 
+.skills {
+  padding-top: 3.5rem;
+  padding-bottom: 5rem;
+  background-color: #fffffe;
+}
+.skills .section-header h2 {
+  color: #0f0e17;
+  font-weight: 700;
+  font-size: 48px;
+}
+.skills .section-header p {
+  font-size: 1.3125rem;
+  padding: 0 1rem;
+  color: #2e2f3e;
+  font-weight: 400;
+}
+
+.technologies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.technologies .stack {
+  font-size: 50px;
+}
+
+.tech-icons {
+  margin-right: 10px;
+  color: #868e96;
+  font-weight: 400;
+}
+.tech-icons:hover {
+  color: #e53170;
+}
+.tech-icons p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: -4px;
+}
+
 body {
   font-family: "Barlow", sans-serif;
   font-size: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .particles {

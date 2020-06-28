@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Banner />
       </Header>
-      <main className="container">
+      <main>
         <Skills />
       </main>
     </div>

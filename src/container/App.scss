@@ -2,12 +2,16 @@
 @import "./scss/partials/navbar";
 @import "./scss/partials/banner";
 @import "./scss/partials/social";
-
+@import "./scss/partials/skills";
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Oswald:wght@400;700&display=swap");
 
 body {
   font-family: "Barlow", sans-serif;
   font-size: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .particles {
