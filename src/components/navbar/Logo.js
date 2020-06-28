@@ -1,11 +1,10 @@
 import React from "react";
+import { BsCodeSlash } from "react-icons/bs";
 
 const Logo = () => {
   return (
-    <a href="#!" className="brand-logo">
-      <span style={{ color: "#ff8906" }}>&#9679;</span>
-      <span style={{ color: "#f25f4c" }}>&#9679;</span>
-      <span style={{ color: "#e53170" }}>&#9679;</span>
+    <a href="/" className="brand-logo">
+      <BsCodeSlash style={{ color: "#ff8906", fontSize: "25px" }} />
     </a>
   );
 };
