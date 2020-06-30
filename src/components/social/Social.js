@@ -18,6 +18,7 @@ const Social = () => {
   const social = socialIcons.map((item, index) => (
     <a
       href="google.com"
+      rel="noopener noreferrer"
       target="_blank"
       className="waves-effect waves-light hvr-sink"
       style={{ fontSize: "30px", color: "#a7a9be" }}
@@ -33,6 +34,7 @@ const Social = () => {
       <a
         href="mailto:kpododanielnarh@gmail.com"
         target="_blank"
+        rel="noopener noreferrer"
         className="waves-effect waves-light hvr-sink"
         style={{ fontSize: "30px", color: "#a7a9be" }}
         title="Email me"

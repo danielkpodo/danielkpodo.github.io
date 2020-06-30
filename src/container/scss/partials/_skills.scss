@@ -55,7 +55,7 @@ hr.rule {
   border-top: medium double #333;
   color: #333;
   text-align: center;
-  width: 400px;
+  max-width: 400px;
   opacity: 0.3;
 }
 hr.rule:after {
