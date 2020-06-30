@@ -1,8 +1,10 @@
 @import "./scss/partials/variables";
+@import "./scss/partials/mixins";
 @import "./scss/partials/navbar";
 @import "./scss/partials/banner";
 @import "./scss/partials/social";
 @import "./scss/partials/skills";
+@import "./scss/partials/projects";
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Oswald:wght@400;700&display=swap");
 
 body {

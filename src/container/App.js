@@ -3,6 +3,7 @@ import Header from "../components/navbar/Header";
 import Navbar from "../components/navbar/Navbar";
 import Banner from "../components/Banner";
 import Skills from "../components/skills/Skills";
+import Projects from "../components/projects/Projects";
 import Particles from "react-particles-js";
 import { particlesOption } from "./particlesOption";
 import "./App.css";
@@ -17,6 +18,7 @@ function App() {
       </Header>
       <main>
         <Skills />
+        <Projects />
       </main>
     </div>
   );
