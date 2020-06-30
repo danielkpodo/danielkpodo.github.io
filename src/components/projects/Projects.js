@@ -1,4 +1,5 @@
 import React from "react";
+import GithubRepo from "./GithubRepo";
 
 const Projects = () => {
   return (
@@ -10,12 +11,14 @@ const Projects = () => {
       </div>
       <div className="container">
         <div className="row">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae odit
-            pariatur sit voluptatum aliquid perspiciatis hic possimus tempora,
-            explicabo suscipit debitis quam quaerat aut fugiat harum?
-            Repudiandae rem rerum nostrum.
-          </p>
+          <div className="col m6">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              officia, eveniet totam molestias, ratione repellat, optio quod non
+              ullam quis harum ipsum beatae nostrum! Delectus commodi ex
+              architecto error eligendi.
+            </p>
+          </div>
         </div>
       </div>
     </section>
