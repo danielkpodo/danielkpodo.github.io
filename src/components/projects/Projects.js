@@ -1,5 +1,5 @@
 import React from "react";
-import GithubRepo from "./GithubRepo";
+import RepoCard from "./GithubRepo";
 
 const Projects = () => {
   return (
