@@ -6,9 +6,9 @@ import { GoStar } from "react-icons/go";
 
 const GithubRepo = () => {
   return (
-    <div className="col m6 repo-space">
+    <div className="col m6 repo-space z-depth-2">
       <a href="">
-        <div className="repo z-depth-2">
+        <div className="repo">
           <div className="title">
             <p>
               <GoRepo style={{ fontSize: "25px", marginRight: "-15px" }} />

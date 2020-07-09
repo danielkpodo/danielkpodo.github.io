@@ -213,6 +213,12 @@ hr.rule:after {
 
 .repo-space {
   margin: 10px 0;
+  transition: transform 2s;
+  opacity: 0.9;
+}
+.repo-space:hover {
+  transform: scale(1.05);
+  opacity: 1;
 }
 
 .repo {
@@ -235,6 +241,16 @@ hr.rule:after {
 .repo-footer {
   display: flex;
   justify-content: space-between;
+}
+
+.experience {
+  padding-top: 3.5rem;
+  padding-bottom: 5rem;
+  background: #ffeadb;
+}
+
+.date-timeline {
+  color: red;
 }
 
 body {
