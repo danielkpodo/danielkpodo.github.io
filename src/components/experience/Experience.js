@@ -4,7 +4,7 @@ import Timeline from "./Timeline";
 
 const Experience = () => {
   const [timeline, setTimeline] = useState([...Training]);
-  console.log("Timeline", timeline);
+
   return (
     <section className="experience" id="experience">
       <div className="section-header center-align">
@@ -15,7 +15,9 @@ const Experience = () => {
       <div className="container">
         <div className="row">
           <div className="col s12">
-            <Timeline />
+            {timeline.map((experience, index) => (
+              <Timeline experiences={experience} key={index} />
+            ))}
           </div>
         </div>
       </div>

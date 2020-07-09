@@ -3,6 +3,7 @@ import { School, GoReact, Python, Javascript, Health } from "./ExperienceIcons";
 
 export const Training = [
   {
+    id: 1,
     title: "University of Health And Allied Sciences (UHAS)",
     description:
       "Obtained a bachelor's degree in Public Health.Education focused on research, statistics, scientific analysis, and database management. Dabbled with PHP on the side",
@@ -12,6 +13,7 @@ export const Training = [
     tagline: "education"
   },
   {
+    id: 2,
     title: "Public Health Officer & Data Entry Clerk (NSS)",
     description:
       "Managed vaccine logistics and equipments at Tema General Hospital, Ghana. Drafted an emergency preparedness plan during the recent H1N1 outbreak. Managed, entered, and analyzed health data at the public health unit",
@@ -21,6 +23,7 @@ export const Training = [
     tagline: "work"
   },
   {
+    id: 3,
     title: "FreeCodeCamp Online Education (FCC)",
     description:
       "Trained in responsive web design, advanced javascript, data structures and algorithms",
@@ -30,6 +33,7 @@ export const Training = [
     tagline: "education"
   },
   {
+    id: 4,
     title: "Zerotomastery Academy (ZTM)",
     description:
       "Completed the zero to mastery web developer bootcamp. Trained in a myriad of technologies ranging from javascript, git,react,nodejs,python, and data science among others",
@@ -39,6 +43,7 @@ export const Training = [
     tagline: "education"
   },
   {
+    id: 5,
     title: "Fullstack Engineer(HDX Technologies)",
     description:
       "Wireframed and implemented the UI for almost every project. Model database design for backend. Responsible for mentoring a team of Junior Developers",

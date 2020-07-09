@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 import {
   VerticalTimeline,
   VerticalTimelineElement
@@ -6,7 +8,8 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { MdSchool } from "react-icons/md";
 
-const Timeline = () => {
+const Timeline = (props) => {
+  const { experiences } = props;
   return (
     <VerticalTimeline>
       <VerticalTimelineElement
@@ -24,6 +27,10 @@ const Timeline = () => {
       </VerticalTimelineElement>
     </VerticalTimeline>
   );
+};
+
+Timeline.propTypes = {
+  experiences: PropTypes.object.isRequired
 };
 
 export default Timeline;
