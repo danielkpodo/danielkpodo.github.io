@@ -253,6 +253,7 @@ hr.rule:after {
 }
 .experience .timeline-description {
   font-weight: 400;
+  font-size: 1rem;
 }
 .experience .date {
   font-weight: bolder;

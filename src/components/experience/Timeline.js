@@ -6,24 +6,29 @@ import {
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { MdSchool } from "react-icons/md";
 
 const Timeline = (props) => {
-  const { experiences } = props;
+  const {
+    title,
+    description,
+    icon,
+    iconBg,
+    date,
+    tagline,
+    position
+  } = props.experiences;
   return (
     <VerticalTimeline>
       <VerticalTimelineElement
-        className="vertical-timeline-element--work"
-        date="2011 - present"
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        className={`vertical-timeline-element--${tagline}`}
+        date={date}
+        iconStyle={{ background: `${iconBg}`, color: "#fff" }}
         dateClassName="date"
-        icon={<MdSchool />}
+        icon={icon}
+        position={position}
       >
-        <h5 className="vertical-timeline-element-title">Creative Director</h5>
-        <p className="timeline-description">
-          Creative Direction, User Experience, Visual Design, Project
-          Management, Team Leading
-        </p>
+        <h5 className="vertical-timeline-element-title">{title}</h5>
+        <p className="timeline-description">{description}</p>
       </VerticalTimelineElement>
     </VerticalTimeline>
   );

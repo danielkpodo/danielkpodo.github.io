@@ -8,7 +8,7 @@ const Experience = () => {
   return (
     <section className="experience" id="experience">
       <div className="section-header center-align">
-        <h2> Experience </h2>
+        <h2> Education & Work </h2>
         <hr className="rule" />
         <p>The timeline illustrates my education & developer training</p>
       </div>
