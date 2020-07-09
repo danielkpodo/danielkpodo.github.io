@@ -11,14 +11,10 @@ const Projects = () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col m6">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-              officia, eveniet totam molestias, ratione repellat, optio quod non
-              ullam quis harum ipsum beatae nostrum! Delectus commodi ex
-              architecto error eligendi.
-            </p>
-          </div>
+          <RepoCard />
+          <RepoCard />
+          <RepoCard />
+          <RepoCard />
         </div>
       </div>
     </section>

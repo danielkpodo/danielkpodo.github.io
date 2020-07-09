@@ -1,0 +1,27 @@
+.repo-space {
+  margin: 10px 0;
+}
+.repo {
+  background: #fff;
+  p {
+    color: $masthead-bg;
+    opacity: 0.9;
+  }
+
+  .title {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+.repo-description {
+  p {
+    margin-top: -5px;
+    padding-bottom: 15px;
+  }
+}
+
+.repo-footer {
+  display: flex;
+  justify-content: space-between;
+}
