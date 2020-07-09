@@ -1,8 +1,14 @@
 .experience {
   @include section;
   background: #ffeadb;
-}
-
-.date-timeline {
-  color: red;
+  h5 {
+    font-family: "Noto Sans", sans-serif;
+  }
+  .timeline-description {
+    font-weight: 400;
+  }
+  .date {
+    font-weight: bolder;
+    color: #000;
+  }
 }

@@ -1,12 +1,10 @@
-import React from "react";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
-import { GoRepoForked } from "react-icons/go";
+import React, { useState } from "react";
+import { Training } from "../resources/Training";
+import Timeline from "./Timeline";
 
 const Experience = () => {
+  const [timeline, setTimeline] = useState([...Training]);
+  console.log("Timeline", timeline);
   return (
     <section className="experience" id="experience">
       <div className="section-header center-align">
@@ -16,38 +14,8 @@ const Experience = () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col m12">
-            <VerticalTimeline>
-              <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                date="2011 - present"
-                iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                dateClassName="date-timeline"
-                icon={<GoRepoForked />}
-              >
-                <h5 className="vertical-timeline-element-title">
-                  Creative Director
-                </h5>
-                <p>
-                  Creative Direction, User Experience, Visual Design, Project
-                  Management, Team Leading
-                </p>
-              </VerticalTimelineElement>
-              <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                date="2010 - 2011"
-                iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-                icon={<GoRepoForked />}
-              >
-                <h5 className="vertical-timeline-element-title">
-                  Art Director
-                </h5>
-                <p>
-                  Creative Direction, User Experience, Visual Design, SEO,
-                  Online Marketing
-                </p>
-              </VerticalTimelineElement>
-            </VerticalTimeline>
+          <div className="col s12">
+            <Timeline />
           </div>
         </div>
       </div>

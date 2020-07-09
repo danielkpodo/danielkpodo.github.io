@@ -248,9 +248,15 @@ hr.rule:after {
   padding-bottom: 5rem;
   background: #ffeadb;
 }
-
-.date-timeline {
-  color: red;
+.experience h5 {
+  font-family: "Noto Sans", sans-serif;
+}
+.experience .timeline-description {
+  font-weight: 400;
+}
+.experience .date {
+  font-weight: bolder;
+  color: #000;
 }
 
 body {
