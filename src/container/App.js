@@ -5,6 +5,7 @@ import Banner from "../components/Banner";
 import Skills from "../components/skills/Skills";
 import Projects from "../components/projects/Projects";
 import Particles from "react-particles-js";
+import Experience from "../components/experience/Experience";
 import { particlesOption } from "./particlesOption";
 import "./App.css";
 
@@ -19,6 +20,7 @@ function App() {
       <main>
         <Skills />
         <Projects />
+        <Experience />
       </main>
     </div>
   );

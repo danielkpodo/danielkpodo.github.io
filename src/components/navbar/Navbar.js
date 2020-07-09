@@ -7,6 +7,7 @@ const Navbar = () => {
   const [navLinks, setNavLinks] = useState([
     { text: "Skills", path: "#skills" },
     { text: "Projects", path: "#projects" },
+    { text: "Experience", path: "#experience" },
     { text: "Achievements", path: "#achievements" },
     { text: "Contact", path: "#contact" }
   ]);

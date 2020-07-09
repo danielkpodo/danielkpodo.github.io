@@ -7,10 +7,12 @@ const Projects = () => {
       <div className="section-header center-align">
         <h2> Projects & Works </h2>
         <hr className="rule" />
-        <p>Here are a couple of my open source prjects on github</p>
+        <p>Here are a couple of my open source projects on github</p>
       </div>
       <div className="container">
         <div className="row">
+          <RepoCard />
+          <RepoCard />
           <RepoCard />
           <RepoCard />
           <RepoCard />
