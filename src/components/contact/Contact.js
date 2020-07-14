@@ -10,12 +10,8 @@ const Contact = () => {
       </div>
       <div className="container">
         <div className="row">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
-            sint debitis quo ut ratione explicabo nulla molestias doloremque ad
-            fuga laudantium autem quas alias quasi repudiandae, aliquam minus
-            provident adipisci?
-          </p>
+          <div className="col m6">contact here</div>
+          <div className="col m6">Other things here</div>
         </div>
       </div>
     </section>

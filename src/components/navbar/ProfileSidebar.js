@@ -17,7 +17,7 @@ const ProfileSidebar = () => {
             <span className="white-text name">Daniel Narh</span>
           </a>
           <a
-            class="twitter-follow-button"
+            className="twitter-follow-button"
             href="https://twitter.com/NarhKpodo"
             target="_blank"
           >
