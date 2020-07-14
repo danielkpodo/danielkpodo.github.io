@@ -3,7 +3,7 @@ import RepoCard from "./GithubRepo";
 
 const Projects = () => {
   return (
-    <section className="projects" id="projects">
+    <section className="projects scrollspy" id="projects">
       <div className="section-header center-align">
         <h2> Projects & Works </h2>
         <hr className="rule" />

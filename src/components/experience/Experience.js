@@ -6,7 +6,7 @@ const Experience = () => {
   const [timeline, setTimeline] = useState([...Training]);
 
   return (
-    <section className="experience" id="experience">
+    <section className="experience scrollspy" id="experience">
       <div className="section-header center-align">
         <h2> Education & Work </h2>
         <hr className="rule" />

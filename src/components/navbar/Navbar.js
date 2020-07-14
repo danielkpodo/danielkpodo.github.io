@@ -34,7 +34,9 @@ const Navbar = () => {
             <a href="#" data-target="mobile-demo" className="sidenav-trigger">
               <MdSort style={{ fontSize: "50px", paddingTop: "15px" }} />
             </a>
-            <ul className="right hide-on-med-and-down">{menuLinks}</ul>
+            <ul className="right hide-on-med-and-down table-of-contents">
+              {menuLinks}
+            </ul>
           </div>
         </nav>
       </div>
