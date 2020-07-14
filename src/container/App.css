@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Oswald:wght@400;700&display=swap");
 .active {
   background: linear-gradient(to right, #f25f4c 0%, #f25f4c 5px, transparent);
+  opacity: 0.9;
 }
 
 .head-overview {
@@ -51,7 +52,7 @@
 .hvr-grow:focus,
 .hvr-grow:active {
   transform: scale(1.1);
-  color: #ff8906;
+  color: #fff;
 }
 
 .email {
