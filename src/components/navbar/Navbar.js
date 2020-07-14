@@ -2,6 +2,7 @@ import React, { Fragment, useState, useEffect } from "react";
 import Logo from "./Logo";
 import M from "materialize-css";
 import { MdSort } from "react-icons/md";
+import ProfileSidebar from "./ProfileSidebar";
 
 const Navbar = () => {
   const [navLinks, setNavLinks] = useState([
@@ -38,6 +39,7 @@ const Navbar = () => {
         </nav>
       </div>
       <ul className="sidenav" id="mobile-demo">
+        <ProfileSidebar />
         {menuLinks}
       </ul>
     </Fragment>

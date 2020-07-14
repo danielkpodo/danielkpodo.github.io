@@ -50,6 +50,15 @@
   color: #ff8906;
 }
 
+.email {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+#mobile-demo {
+  background: #ffeadb;
+}
+
 .banner {
   padding-top: 3.5rem;
   padding-bottom: 5rem;
