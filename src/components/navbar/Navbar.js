@@ -9,7 +9,7 @@ const Navbar = () => {
     { text: "Skills", path: "#skills" },
     { text: "Projects", path: "#projects" },
     { text: "Experience", path: "#experience" },
-    { text: "Achievements", path: "#achievements" },
+    { text: "Certifications", path: "#achievements" },
     { text: "Contact", path: "#contact" }
   ]);
 

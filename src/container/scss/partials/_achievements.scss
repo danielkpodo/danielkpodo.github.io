@@ -1,0 +1,13 @@
+.achievements {
+  @include section;
+  background: $masthead-bg;
+
+  @include section-header;
+}
+
+.cert-img {
+  margin: 10px 0;
+  img {
+    border-radius: 10px;
+  }
+}

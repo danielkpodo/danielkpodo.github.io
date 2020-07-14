@@ -269,6 +269,33 @@ hr.rule:after {
   color: #000;
 }
 
+.achievements {
+  padding-top: 3.5rem;
+  padding-bottom: 5rem;
+  background: #0f0e17;
+}
+.achievements h2 {
+  color: #fffffe;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+}
+.achievements p {
+  padding: 0 1rem;
+  color: #a7a9be;
+  font-weight: 400;
+}
+.achievements hr.rule {
+  border-top: medium double #fff;
+}
+
+.cert-img {
+  margin: 10px 0;
+}
+.cert-img img {
+  border-radius: 10px;
+}
+
 body {
   font-family: "Barlow", sans-serif;
   font-size: 100%;

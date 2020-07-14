@@ -4,3 +4,24 @@
   padding-top: 3.5rem;
   padding-bottom: 5rem;
 }
+
+@mixin section-header {
+  h2 {
+    color: #fffffe;
+    font-family: "Noto Sans", sans-serif;
+    font: {
+      weight: 700;
+      size: 48px;
+    }
+  }
+
+  p {
+    padding: 0 1rem;
+    color: #a7a9be;
+    font-weight: 400;
+  }
+
+  hr.rule {
+    border-top: medium double #fff;
+  }
+}

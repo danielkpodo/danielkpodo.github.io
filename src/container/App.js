@@ -6,6 +6,7 @@ import Skills from "../components/skills/Skills";
 import Projects from "../components/projects/Projects";
 import Particles from "react-particles-js";
 import Experience from "../components/experience/Experience";
+import Achievement from "../components/achievements/Achievement";
 import { particlesOption } from "./particlesOption";
 import "./App.css";
 import TopBarProgress from "react-topbar-progress-indicator";
@@ -24,6 +25,7 @@ function App() {
         <Skills />
         <Projects />
         <Experience />
+        <Achievement />
       </main>
     </div>
   );
