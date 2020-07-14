@@ -16,6 +16,13 @@ const ProfileSidebar = () => {
           <a href="#name">
             <span className="white-text name">Daniel Narh</span>
           </a>
+          <a
+            class="twitter-follow-button"
+            href="https://twitter.com/NarhKpodo"
+            target="_blank"
+          >
+            Follow @NarhKpodo
+          </a>
           <a href="mailto:kpododanielnarh@gmail.com" title="Email me now">
             <span className="white-text email">kpododanielnarh@gmail.com</span>
           </a>
