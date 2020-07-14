@@ -5,7 +5,7 @@ import Typed from "react-typed";
 
 const Banner = () => {
   return (
-    <div className="container banner">
+    <div className="container banner scrollspy" id="home">
       <div className="row">
         <div className="col s12 l7">
           <h1>

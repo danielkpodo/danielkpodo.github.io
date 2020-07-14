@@ -65,7 +65,7 @@
 }
 
 .banner {
-  padding-top: 3.5rem;
+  padding-top: 4.5rem;
   padding-bottom: 5rem;
 }
 .banner h1 {
@@ -299,6 +299,12 @@ hr.rule:after {
 }
 .cert-img img {
   border-radius: 10px;
+}
+
+.contact-me {
+  padding-top: 3.5rem;
+  padding-bottom: 5rem;
+  background: #fffffe;
 }
 
 body {

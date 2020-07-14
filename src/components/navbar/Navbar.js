@@ -6,11 +6,12 @@ import ProfileSidebar from "./ProfileSidebar";
 
 const Navbar = () => {
   const [navLinks, setNavLinks] = useState([
+    { text: "Home", path: "#home" },
     { text: "Skills", path: "#skills" },
     { text: "Projects", path: "#projects" },
     { text: "Experience", path: "#experience" },
     { text: "Certifications", path: "#achievements" },
-    { text: "Contact", path: "#contact" }
+    { text: "Contact", path: "#contact-me" }
   ]);
 
   useEffect(() => {
