@@ -11,7 +11,11 @@ const ProfileSidebar = () => {
             <img src={pattern} />
           </div>
           <a href="#user">
-            <img className="circle responsive-img" src={danny} />
+            <img
+              className="circle responsive-img"
+              src={danny}
+              alt="Daniel Narh "
+            />
           </a>
           <a href="#name">
             <span className="white-text name">Daniel Narh</span>

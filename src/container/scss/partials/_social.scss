@@ -1,9 +1,17 @@
 .social-icons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   margin-bottom: 2rem;
-  align-items: flex-start;
-  margin-left: -20px;
+  align-items: center;
+  @include tablet {
+    justify-content: space-between;
+  }
+
+  a {
+    @include medium {
+      margin-right: 3rem;
+    }
+  }
 }
 
 .hvr-sink {

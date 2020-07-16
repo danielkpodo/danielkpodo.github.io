@@ -1,4 +1,18 @@
 .contact-me {
   @include section;
   background: #fffffe;
+
+  h3 {
+    color: #2e2f3e;
+  }
+  .reach-out {
+    p {
+      font-size: 1.2rem;
+    }
+
+    .loc {
+      color: #f25f4c;
+      font-size: 22px;
+    }
+  }
 }

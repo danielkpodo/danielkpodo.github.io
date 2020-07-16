@@ -113,10 +113,19 @@
 
 .social-icons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   margin-bottom: 2rem;
-  align-items: flex-start;
-  margin-left: -20px;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .social-icons {
+    justify-content: space-between;
+  }
+}
+@media (min-width: 768px) {
+  .social-icons a {
+    margin-right: 3rem;
+  }
 }
 
 .hvr-sink {
@@ -306,10 +315,20 @@ hr.rule:after {
   padding-bottom: 5rem;
   background: #fffffe;
 }
+.contact-me h3 {
+  color: #2e2f3e;
+}
+.contact-me .reach-out p {
+  font-size: 1.2rem;
+}
+.contact-me .reach-out .loc {
+  color: #f25f4c;
+  font-size: 22px;
+}
 
 body {
   font-family: "Barlow", sans-serif;
-  font-size: 100%;
+  font-size: 1.2;
 }
 
 html {
