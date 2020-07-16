@@ -1,6 +1,7 @@
 import React from "react";
 import { MdPersonPinCircle } from "react-icons/md";
 import Social from "../social/Social";
+import profile_img from "../assets/images/danny.jpg";
 
 const Contact = () => {
   return (
@@ -12,7 +13,7 @@ const Contact = () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col m8 reach-out">
+          <div className="col s12 l8 reach-out">
             <h3>Reach Out to Me</h3>
             <p>
               Discuss a project, job opportunity,collaboration or just wanna say
@@ -31,7 +32,21 @@ const Contact = () => {
               <Social />
             </div>
           </div>
-          <div className="col m4">Other things here</div>
+          <div className="col s12 l4">
+            <div className="profile">
+              <img
+                src={profile_img}
+                alt="daniel narh"
+                className="responsive-img z-depth-5"
+              />
+            </div>
+          </div>
+
+          <div className="row footer">
+            <div className="col s12">
+              <h6>Made with love by Daniel Narh</h6>
+            </div>
+          </div>
         </div>
       </div>
     </section>

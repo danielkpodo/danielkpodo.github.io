@@ -1,13 +1,18 @@
 .contact-me {
-  @include section;
   background: #fffffe;
+  padding-top: 3.5rem;
 
   h3 {
     color: #2e2f3e;
+    opacity: 0.9;
+  }
+  h4 {
+    font-size: 1.25rem;
   }
   .reach-out {
     p {
       font-size: 1.2rem;
+      color: #2e2f3e;
     }
 
     .loc {
@@ -15,4 +20,20 @@
       font-size: 22px;
     }
   }
+}
+
+.profile {
+  img {
+    border-radius: 10px;
+    border: 5px solid #e53170;
+    padding: 5px;
+    max-width: 100%;
+    display: block;
+  }
+}
+
+.footer {
+  color: red;
+  margin-bottom: 0px;
+  text-align: center;
 }
