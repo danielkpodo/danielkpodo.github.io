@@ -4,7 +4,10 @@ import CertificateDisplay from "./CertificateDisplay";
 
 const Achievement = () => {
   return (
-    <section className="achievements scrollspy" id="achievements">
+    <section
+      className="achievements scrollspy pattern-dots-md"
+      id="achievements"
+    >
       <div className="section-header center-align">
         <h2>My Certifications</h2>
         <hr className="rule" />

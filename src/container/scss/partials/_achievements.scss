@@ -1,6 +1,6 @@
 .achievements {
   @include section;
-  background: $masthead-bg;
+  background-color: $masthead-bg;
 
   @include section-header;
 }

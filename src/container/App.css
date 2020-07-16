@@ -269,7 +269,7 @@ hr.rule:after {
 .experience {
   padding-top: 3.5rem;
   padding-bottom: 5rem;
-  background: #ffeadb;
+  background-color: #ffeadb;
 }
 .experience h5 {
   font-family: "Noto Sans", sans-serif;
@@ -286,7 +286,7 @@ hr.rule:after {
 .achievements {
   padding-top: 3.5rem;
   padding-bottom: 5rem;
-  background: #0f0e17;
+  background-color: #0f0e17;
 }
 .achievements h2 {
   color: #fffffe;
