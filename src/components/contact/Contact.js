@@ -21,7 +21,7 @@ const Contact = () => {
             </p>
             <h4>
               Fullstack Engineer | Data Analyst | MERN Developer | Python
-              Developer & Prolific Writer
+              Developer | Researcher
             </h4>
             <div className="location">
               <p>
@@ -39,12 +39,6 @@ const Contact = () => {
                 alt="daniel narh"
                 className="responsive-img z-depth-5"
               />
-            </div>
-          </div>
-
-          <div className="row footer">
-            <div className="col s12">
-              <h6>Made with love by Daniel Narh</h6>
             </div>
           </div>
         </div>

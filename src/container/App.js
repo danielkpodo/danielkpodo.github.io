@@ -8,6 +8,7 @@ import Particles from "react-particles-js";
 import Experience from "../components/experience/Experience";
 import Achievement from "../components/achievements/Achievement";
 import Contact from "../components/contact/Contact";
+import Footer from "../components/Footer";
 import { particlesOption } from "./particlesOption";
 import "./App.css";
 import TopBarProgress from "react-topbar-progress-indicator";
@@ -28,6 +29,7 @@ function App() {
         <Experience />
         <Achievement />
         <Contact />
+        <Footer />
       </main>
     </div>
   );
