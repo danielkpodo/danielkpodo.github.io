@@ -355,6 +355,10 @@ hr.rule:after {
   height: 30px;
   opacity: 0.8;
 }
+.footer h6 a {
+  color: #ff8906;
+  text-decoration: underline;
+}
 
 body {
   font-family: "Barlow", sans-serif;
