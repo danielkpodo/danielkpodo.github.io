@@ -15,7 +15,7 @@ export const Training = [
     description:
       "Wireframed and implemented the UI for almost every project. Model database design for backend. Responsible for mentoring a team of Junior Developers",
     icon: <GoReact />,
-    iconBg: "#61DBFB",
+    iconBg: "#f25f4c",
     date: "Jan 2020 - present",
     tagline: "work",
     position: "right"
@@ -26,7 +26,7 @@ export const Training = [
     description:
       "Responsible for monthly data entry, anaylysis, and reporting. Lead investigator for covid19 suspected covid-19 cases",
     icon: <Covid />,
-    iconBg: "crimson",
+    iconBg: "#f25f4c",
     date: "Aug 2019 - July 2020",
     tagline: "work",
     position: "left"
@@ -37,7 +37,7 @@ export const Training = [
     description:
       "Completed the zero to mastery web developer bootcamp and granted advanced python certification.Moreso,trained in a myriad of technologies ranging from javascript, git,react,nodejs,python, and data science among others",
     icon: <Python />,
-    iconBg: "#F7518D",
+    iconBg: "#f25f4c",
     date: "2019 - 2020",
     tagline: "education",
     position: "right"
@@ -48,7 +48,7 @@ export const Training = [
     description:
       "Trained in responsive web design, advanced javascript, data structures and algorithms",
     icon: <Javascript />,
-    iconBg: "#0A0A22",
+    iconBg: "#f25f4c",
     date: "2018 - 2019",
     tagline: "education",
     position: "left"
@@ -59,7 +59,7 @@ export const Training = [
     description:
       "Managed vaccine logistics and equipments at Tema General Hospital, Ghana. Drafted an emergency preparedness plan during the recent H1N1 outbreak. Managed, entered, and analyzed health data at the public health unit",
     icon: <Health />,
-    iconBg: "goldenrod",
+    iconBg: "#f25f4c",
     date: "2018 - 2019",
     tagline: "work",
     position: "right"
@@ -70,7 +70,7 @@ export const Training = [
     description:
       "Obtained a Bachelor's degree in Public with specialty in Disease Control. Education centered on research, health statistics, and epidemiology. Whilst in my final year, I dabbled with PHP and SQL on the side",
     icon: <School />,
-    iconBg: "#018C41",
+    iconBg: "#f25f4c",
     date: "2013 - 2017",
     tagline: "education",
     position: "left"

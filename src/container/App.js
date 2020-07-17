@@ -10,8 +10,9 @@ import Achievement from "../components/achievements/Achievement";
 import Contact from "../components/contact/Contact";
 import Footer from "../components/Footer";
 import { particlesOption } from "./particlesOption";
-import "./App.css";
 import TopBarProgress from "react-topbar-progress-indicator";
+import BackToTop from "react-back-top";
+import "./App.css";
 
 function App() {
   return (
@@ -30,6 +31,13 @@ function App() {
         <Achievement />
         <Contact />
         <Footer />
+        <BackToTop
+          shape="round"
+          icon="fa fa-arrow-up"
+          position={{ bottom: "5%", right: "2%" }}
+          radius={20}
+          background="#f25f4c"
+        />
       </main>
     </div>
   );
