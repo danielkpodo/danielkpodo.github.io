@@ -1,5 +1,6 @@
 import React from "react";
 import RepoCard from "./GithubRepo";
+import MoreProjects from "./MoreProjects";
 
 const Projects = () => {
   return (
@@ -19,6 +20,7 @@ const Projects = () => {
           <RepoCard />
         </div>
       </div>
+      <MoreProjects />
     </section>
   );
 };

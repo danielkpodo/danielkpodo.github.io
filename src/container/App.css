@@ -234,6 +234,23 @@ hr.rule:after {
   border-top: medium double #fff;
 }
 
+.more-projects {
+  text-align: center;
+}
+.more-projects a {
+  background: #f25f4c;
+  opacity: 0.6;
+  color: #fffffe;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.more-projects a:hover {
+  background: #ff8906;
+}
+.more-projects a:focus {
+  background: #ff8906;
+}
+
 .repo-space {
   margin: 10px 0;
   transition: transform 2s;

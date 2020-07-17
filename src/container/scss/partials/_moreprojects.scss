@@ -1,0 +1,18 @@
+.more-projects {
+  text-align: center;
+  a {
+    background: #f25f4c;
+    opacity: 0.6;
+    color: #fffffe;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    &:hover {
+      background: #ff8906;
+    }
+
+    &:focus {
+      background: #ff8906;
+    }
+  }
+}
