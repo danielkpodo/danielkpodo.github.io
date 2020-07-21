@@ -37,6 +37,7 @@ function App() {
           position={{ bottom: "5%", right: "2%" }}
           radius={20}
           background="#f25f4c"
+          hover={{ background: "#ff8906" }}
         />
       </main>
     </div>

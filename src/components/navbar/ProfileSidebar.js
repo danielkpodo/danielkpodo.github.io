@@ -1,6 +1,7 @@
 import React from "react";
-import pattern from "../assets/images/pattern1.jpg";
+import pattern from "../assets/images/pattern.png";
 import danny from "../assets/images/Danny_nice.jpeg";
+import { TwitterFollowButton } from "react-twitter-embed";
 
 const ProfileSidebar = () => {
   return (
@@ -20,13 +21,7 @@ const ProfileSidebar = () => {
           <a href="#name">
             <span className="white-text name">Daniel Narh</span>
           </a>
-          <a
-            className="twitter-follow-button"
-            href="https://twitter.com/NarhKpodo"
-            target="_blank"
-          >
-            Follow @NarhKpodo
-          </a>
+          <TwitterFollowButton screenName={"NarhKpodo"} />
           <a href="mailto:kpododanielnarh@gmail.com" title="Email me now">
             <span className="white-text email">kpododanielnarh@gmail.com</span>
           </a>
