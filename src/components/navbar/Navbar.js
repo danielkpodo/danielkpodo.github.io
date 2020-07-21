@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <Fragment>
       <div className="navbar-fixed">
-        <nav className="navbar" id="navigation-bar">
+        <nav className="navbar">
           <div className="nav-wrapper container">
             <Logo />
             <a href="#" data-target="mobile-demo" className="sidenav-trigger">
