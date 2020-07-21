@@ -5,7 +5,7 @@ import profile_img from "../assets/images/danny.jpg";
 
 const Contact = () => {
   return (
-    <section className="contact-me scrollspy" id="contact-me">
+    <section className="contact-me section scrollspy" id="contact-me">
       <div className="section-header center-align">
         <h2>Contact Me</h2>
         <hr className="rule" />

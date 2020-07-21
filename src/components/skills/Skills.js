@@ -3,7 +3,7 @@ import Technologies from "./Technologies";
 
 const Skills = () => {
   return (
-    <section className="skills scrollspy" id="skills">
+    <section className="skills section scrollspy" id="skills">
       <div className="section-header center-align">
         <h2>My Skills </h2>
         <hr className="rule" />

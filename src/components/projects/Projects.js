@@ -4,7 +4,10 @@ import MoreProjects from "./MoreProjects";
 
 const Projects = () => {
   return (
-    <section className="projects scrollspy pattern-dots-md" id="projects">
+    <section
+      className="projects section scrollspy pattern-dots-md"
+      id="projects"
+    >
       <div className="section-header center-align">
         <h2> Projects & Works </h2>
         <hr className="rule" />
