@@ -1,6 +1,7 @@
 import React from "react";
 import { certificates } from "./certificates";
 import CertificateDisplay from "./CertificateDisplay";
+import HeadShake from "react-reveal/HeadShake";
 
 const Achievement = () => {
   return (
@@ -9,7 +10,9 @@ const Achievement = () => {
       id="achievements"
     >
       <div className="section-header center-align">
-        <h2>My Certifications</h2>
+        <HeadShake>
+          <h2>My Certifications</h2>
+        </HeadShake>
         <hr className="rule" />
         <p>A couple of certifications demonstrating my developer training</p>
       </div>
