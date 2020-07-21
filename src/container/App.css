@@ -239,7 +239,7 @@ hr.rule:after {
 }
 .more-projects a {
   background: #f25f4c;
-  opacity: 0.6;
+  opacity: 0.8;
   color: #fffffe;
   font-weight: 800;
   text-transform: uppercase;
@@ -358,6 +358,12 @@ hr.rule:after {
   padding: 5px;
   max-width: 100%;
   display: block;
+  opacity: 0.9;
+}
+.profile img:hover {
+  opacity: 1;
+  transform: scaleX(1.1);
+  transition: 300ms ease-in-out;
 }
 @media (max-width: 769px) {
   .profile img {

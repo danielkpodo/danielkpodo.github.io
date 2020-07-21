@@ -1,12 +1,11 @@
 import React from "react";
-import { BsCodeSlash } from "react-icons/bs";
+import logo from "../assets/images/logo.png";
 
 const Logo = () => {
   return (
     <a href="/" className="brand-logo">
-      <BsCodeSlash style={{ color: "#ff8906", fontSize: "25px" }} />
+      <img src={logo} alt="Daniel Narh logo" style={{ height: "50px" }} />
     </a>
   );
 };
-
 export default Logo;

@@ -33,7 +33,7 @@ function App() {
         <Footer />
         <BackToTop
           shape="round"
-          icon="fa fa-arrow-up"
+          icon="fa fa-hand-o-up"
           position={{ bottom: "5%", right: "2%" }}
           radius={20}
           background="#f25f4c"
