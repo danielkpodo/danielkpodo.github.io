@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 const CertificateDisplay = (props) => {
   const { image_path } = props.certs;
   return (
-    <Fade left cascade>
+    <Fade left>
       <div>
         <div className="col l6 m6 s12 cert-img">
           <img
