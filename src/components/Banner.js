@@ -50,7 +50,7 @@ const Banner = () => {
           </div>
         </Fade>
         <Fade right>
-          <div className="col s12 l5">
+          <div className="col s12 l5 hide-on-med-and-down">
             <img
               src={narh}
               alt="Daniel Narh sitting as a programmer"

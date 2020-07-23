@@ -9,6 +9,9 @@
   h2 {
     color: #0f0e17;
     font-family: "Noto Sans", sans-serif;
+    @include tablet {
+      font-size: 3rem;
+    }
     font: {
       weight: 700;
       size: 48px;

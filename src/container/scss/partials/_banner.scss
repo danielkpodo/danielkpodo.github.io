@@ -1,8 +1,14 @@
 .banner {
   padding-top: 3.5rem;
   padding-bottom: 5rem;
-
+  @include tablet {
+    padding-top: 0;
+    padding-bottom: 2rem;
+  }
   h1 {
+    @include tablet {
+      font-size: 3rem;
+    }
     font: {
       weight: 700;
       size: 3.5rem;
