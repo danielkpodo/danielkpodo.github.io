@@ -1,19 +1,44 @@
 .experience {
   @include section;
   background-color: #ffeadb;
+
+  h2 {
+    font: {
+      weight: 700;
+      size: 48px;
+    }
+
+    @include tablet {
+      font-size: 3rem;
+    }
+
+    @include phone {
+      font-size: 2rem;
+    }
+  }
   h5 {
     font-family: "Noto Sans", sans-serif;
     color: #f25f4c;
     font-weight: bolder;
     font-size: 1.5rem;
+
+    @include phone {
+      font-size: 1.2rem;
+    }
   }
   .timeline-description {
     font-weight: 400;
     font-size: 1.1rem;
+    @include phone {
+      font-size: 1rem;
+    }
   }
   .date {
     font-weight: bolder;
     color: #000;
     font-size: 1rem;
+    @include phone {
+      font-size: 0.875rem;
+    }
   }
 }

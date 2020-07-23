@@ -21,7 +21,6 @@ const Social = () => {
       rel="noopener noreferrer"
       target="_blank"
       className="waves-effect waves-light hvr-sink"
-      style={{ fontSize: "30px", color: "#a7a9be" }}
       key={index}
       title={item.title}
     >
@@ -35,8 +34,7 @@ const Social = () => {
         href="mailto:kpododanielnarh@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="waves-effect waves-light hvr-sink"
-        style={{ fontSize: "30px", color: "#a7a9be" }}
+        className="waves-effect waves-light hvr-sink google"
         title="Email me"
       >
         <FaGooglePlus />

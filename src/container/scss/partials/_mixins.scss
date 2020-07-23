@@ -12,6 +12,9 @@
     @include tablet {
       font-size: 3rem;
     }
+    @include phone {
+      font-size: 2rem;
+    }
     font: {
       weight: 700;
       size: 48px;

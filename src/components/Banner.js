@@ -13,15 +13,7 @@ const Banner = () => {
             <h1>
               <span style={{ color: "#f25f4c" }}>Hi</span>, I'm{" "}
               <Typed
-                strings={[
-                  "Narh",
-                  "Fullstack Dev",
-                  "Js Dev",
-                  "React Dev",
-                  "<em>MERN Dev</em>",
-                  "Data Analyst",
-                  "Python Dev"
-                ]}
+                strings={["Narh", "Js Lover", "MERN Dev", "a Pythonista"]}
                 typeSpeed={130}
                 backSpeed={10}
                 loop

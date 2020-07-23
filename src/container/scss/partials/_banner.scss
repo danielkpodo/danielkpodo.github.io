@@ -9,6 +9,10 @@
     @include tablet {
       font-size: 3rem;
     }
+    @include phone {
+      font-size: 2.2rem;
+      text-align: center;
+    }
     font: {
       weight: 700;
       size: 3.5rem;
@@ -20,6 +24,11 @@
     color: $banner-paragraph;
     line-height: 2.3125rem;
     font-size: 1.3125rem;
+    @include phone {
+      font-size: 1.2rem;
+      padding: 8px;
+      text-align: center;
+    }
   }
 
   .programmer-img {
@@ -28,9 +37,17 @@
   }
 
   .actions {
-    margin-bottom: 2.5rem;
+    @include phone {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    padding-bottom: 2.5rem;
     a {
       margin-right: 1.2rem;
+      @include phone {
+        font-size: 12px;
+      }
     }
   }
 }

@@ -15,7 +15,7 @@ const Skills = () => {
           I am proficient with the following languages, tools and technologies
         </p>
       </div>
-      <Fade top>
+      <Fade right>
         <Technologies />
       </Fade>
     </section>

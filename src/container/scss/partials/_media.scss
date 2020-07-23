@@ -23,8 +23,8 @@ $phone: 321px;
   }
 }
 
-@mixin mobile {
-  @media (max-width: $mobile) {
+@mixin phone {
+  @media (max-width: $phone) {
     @content;
   }
 }

@@ -84,20 +84,45 @@
     font-size: 3rem;
   }
 }
+@media (max-width: 321px) {
+  .banner h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+}
 .banner p {
   color: #a7a9be;
   line-height: 2.3125rem;
   font-size: 1.3125rem;
+}
+@media (max-width: 321px) {
+  .banner p {
+    font-size: 1.2rem;
+    padding: 8px;
+    text-align: center;
+  }
 }
 .banner .programmer-img {
   max-width: 100%;
   display: block;
 }
 .banner .actions {
-  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+@media (max-width: 321px) {
+  .banner .actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .banner .actions a {
   margin-right: 1.2rem;
+}
+@media (max-width: 321px) {
+  .banner .actions a {
+    font-size: 12px;
+  }
 }
 
 .resume {
@@ -131,6 +156,15 @@
 @media (max-width: 769px) {
   .social-icons {
     justify-content: space-between;
+  }
+}
+.social-icons a {
+  color: #a7a9be;
+  font-size: 30px;
+}
+@media (max-width: 321px) {
+  .social-icons a {
+    font-size: 25px;
   }
 }
 @media (min-width: 768px) {
@@ -175,6 +209,11 @@
 @media (max-width: 769px) {
   .section-header h2 {
     font-size: 3rem;
+  }
+}
+@media (max-width: 321px) {
+  .section-header h2 {
+    font-size: 2rem;
   }
 }
 .section-header p {
@@ -246,6 +285,11 @@ hr.rule:after {
     font-size: 3rem;
   }
 }
+@media (max-width: 321px) {
+  .projects h2 {
+    font-size: 2rem;
+  }
+}
 .projects p {
   padding: 0 1rem;
   color: #a7a9be;
@@ -309,20 +353,49 @@ hr.rule:after {
   padding-bottom: 5rem;
   background-color: #ffeadb;
 }
+.experience h2 {
+  font-weight: 700;
+  font-size: 48px;
+}
+@media (max-width: 769px) {
+  .experience h2 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 321px) {
+  .experience h2 {
+    font-size: 2rem;
+  }
+}
 .experience h5 {
   font-family: "Noto Sans", sans-serif;
   color: #f25f4c;
   font-weight: bolder;
   font-size: 1.5rem;
 }
+@media (max-width: 321px) {
+  .experience h5 {
+    font-size: 1.2rem;
+  }
+}
 .experience .timeline-description {
   font-weight: 400;
   font-size: 1.1rem;
+}
+@media (max-width: 321px) {
+  .experience .timeline-description {
+    font-size: 1rem;
+  }
 }
 .experience .date {
   font-weight: bolder;
   color: #000;
   font-size: 1rem;
+}
+@media (max-width: 321px) {
+  .experience .date {
+    font-size: 0.875rem;
+  }
 }
 
 .achievements {
@@ -339,6 +412,11 @@ hr.rule:after {
 @media (max-width: 769px) {
   .achievements h2 {
     font-size: 3rem;
+  }
+}
+@media (max-width: 321px) {
+  .achievements h2 {
+    font-size: 2rem;
   }
 }
 .achievements p {
@@ -361,10 +439,24 @@ hr.rule:after {
   background: #fffffe;
   padding-top: 4.5rem;
 }
+.contact-me h2 {
+  font-weight: 700;
+  font-size: 48px;
+}
+@media (max-width: 769px) {
+  .contact-me h2 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 321px) {
+  .contact-me h2 {
+    font-size: 2rem;
+  }
+}
 .contact-me h3 {
   color: #2e2f3e;
   opacity: 0.9;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 @media (max-width: 769px) {
   .contact-me h3 {
@@ -372,7 +464,7 @@ hr.rule:after {
   }
 }
 .contact-me h4 {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 @media (max-width: 769px) {
   .contact-me .reach-out {

@@ -8,6 +8,11 @@
   }
 
   a {
+    color: #a7a9be;
+    font-size: 30px;
+    @include phone {
+      font-size: 25px;
+    }
     @include medium {
       margin-right: 3rem;
     }
