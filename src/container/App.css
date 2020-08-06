@@ -137,12 +137,12 @@
 .banner p {
   color: #a7a9be;
   line-height: 2.3125rem;
-  font-size: 1.3125rem;
+  font-size: 1.4rem;
 }
 @media (max-width: 321px) {
   .banner p {
     font-size: 1.2rem;
-    padding: 8px;
+    padding: 1rem 0;
     text-align: center;
   }
 }
@@ -158,6 +158,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
   }
 }
 .banner .actions a {
