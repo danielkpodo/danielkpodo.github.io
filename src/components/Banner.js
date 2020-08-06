@@ -32,7 +32,7 @@ const Banner = () => {
             <Social />
             <div className="actions">
               <a
-                href="#!"
+                href="#contact-me"
                 className="waves-effect waves-light btn-small contact "
               >
                 Contact me

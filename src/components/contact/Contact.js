@@ -35,7 +35,7 @@ const Contact = () => {
               </h4>
               <div className="location">
                 <p>
-                  <MdPersonPinCircle className="loc" />
+                  Location: <MdPersonPinCircle className="loc" />
                   {githubUser.user.location
                     ? githubUser.user.location
                     : "Not Available"}
