@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import pattern from "../assets/images/pattern.png";
-import danny from "../assets/images/Danny_nice.jpeg";
 import { TwitterFollowButton } from "react-twitter-embed";
+import GithubContext from "../../context/GithubContext";
 
 const ProfileSidebar = () => {
+  const githubUser = useContext(GithubContext);
   return (
     <div className="profile-sidebar">
       <li>
@@ -14,7 +15,7 @@ const ProfileSidebar = () => {
           <a href="#user">
             <img
               className="circle responsive-img"
-              src={danny}
+              src={githubUser.user.avatar_url}
               alt="Daniel Narh "
             />
           </a>

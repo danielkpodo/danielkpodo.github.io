@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import { MdPersonPinCircle } from "react-icons/md";
 import Social from "../social/Social";
 import profile_img from "../assets/images/danny.jpg";
 import HeadShake from "react-reveal/HeadShake";
 import Pulse from "react-reveal/Pulse";
 import Fade from "react-reveal/Fade";
+import GithubContext from "../../context/GithubContext";
+import { FaCheck } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
 
 const Contact = () => {
+  const githubUser = useContext(GithubContext);
   return (
     <section className="contact-me section scrollspy" id="contact-me">
       <div className="section-header center-align">
@@ -32,9 +36,40 @@ const Contact = () => {
               <div className="location">
                 <p>
                   <MdPersonPinCircle className="loc" />
-                  Tema, Ghana
+                  {githubUser.user.location
+                    ? githubUser.user.location
+                    : "Not Available"}
                 </p>
-                <p>Open for Opportunities: yes</p>
+                <p>
+                  Open for Opportunities:{" "}
+                  {githubUser.user.hireable === true ? (
+                    <FaCheck style={{ color: "green" }} />
+                  ) : (
+                    <FaTimes style={{ color: "red" }} />
+                  )}
+                </p>
+                <p>
+                  Github Public Repos:
+                  {githubUser.user.public_repos ? (
+                    <strong>{githubUser.user.public_repos}</strong>
+                  ) : (
+                    "Not Available"
+                  )}
+                </p>
+                <p>
+                  Current Company:
+                  {githubUser.user.company ? (
+                    <a
+                      href="https://webbermill.com/"
+                      target="_blank"
+                      style={{ color: "#F25F4C", textDecoration: "underline" }}
+                    >
+                      {githubUser.user.company}
+                    </a>
+                  ) : (
+                    "Not Available"
+                  )}
+                </p>
                 <Social />
               </div>
             </div>
