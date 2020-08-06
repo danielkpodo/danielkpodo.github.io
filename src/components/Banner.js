@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
 import narh from "./assets/images/narh.svg";
 import Social from "./social/Social";
 import Typed from "react-typed";
 import Fade from "react-reveal/Fade";
+import GithubContext from "../context/GithubContext";
 
 const Banner = () => {
+  const githubUser = useContext(GithubContext);
+  console.log("User in Banner", githubUser.user);
+  console.log("User Loading in Banner", githubUser.userLoading);
+  const userSpinkit =
+    githubUser.userLoading === true ? (
+      <p>Loading github profile...</p>
+    ) : (
+      <p>{githubUser.user.bio}</p>
+    );
   return (
     <div className="container banner scrollspy" id="home">
       <div className="row">
@@ -19,11 +29,7 @@ const Banner = () => {
                 loop
               />
             </h1>
-            <p>
-              A passionate Software Developer & Data Scientist having experience
-              building web applications with JavaScript / Reactjs / Nodejs /
-              Flask and a knack for complex data analysis with Python
-            </p>
+            {userSpinkit}
             <Social />
             <div className="actions">
               <a

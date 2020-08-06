@@ -36,12 +36,10 @@ function App() {
     const githubUsername = "danielkpodo";
     getUserDetails(githubUsername);
   }, []);
-  console.log("User-Details", user);
 
   return (
     <div className="App" id="read-container">
-      {/* add this.state.loading to make it dynamic */}
-      <TopBarProgress />
+      {userLoading && <TopBarProgress />}
       <Particles className="particles" params={particlesOption} />
       <GithubContext.Provider value={{ user, userLoading }}>
         <Header>
