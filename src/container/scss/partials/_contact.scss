@@ -52,12 +52,6 @@
     display: block;
     opacity: 0.9;
 
-    &:hover {
-      opacity: 1;
-      transform: scaleX(1.1);
-      transition: 300ms ease-in-out;
-    }
-
     @include tablet {
       max-width: 100%;
       margin: 0 auto;

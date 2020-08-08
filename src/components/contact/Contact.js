@@ -8,6 +8,7 @@ import Fade from "react-reveal/Fade";
 import GithubContext from "../../context/GithubContext";
 import { FaCheck } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
+import Tilt from "react-tilt";
 
 const Contact = () => {
   const githubUser = useContext(GithubContext);
@@ -77,11 +78,15 @@ const Contact = () => {
           <div className="col s12 l4">
             <Pulse>
               <div className="profile">
-                <img
-                  src={profile_img}
-                  alt="daniel narh"
-                  className="responsive-img z-depth-5"
-                />
+                <Tilt className="Tilt" options={{ max: 50 }}>
+                  <div className="Tilt-inner">
+                    <img
+                      src={profile_img}
+                      alt="daniel narh"
+                      className="responsive-img"
+                    />
+                  </div>
+                </Tilt>
               </div>
             </Pulse>
           </div>
