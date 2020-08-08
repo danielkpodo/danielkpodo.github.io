@@ -14,6 +14,7 @@ import { particlesOption } from "./particlesOption";
 import TopBarProgress from "react-topbar-progress-indicator";
 import BackToTop from "react-back-top";
 import GithubContext from "../context/GithubContext";
+import MouseParticles from "react-mouse-particles";
 import "./App.css";
 
 function App() {
@@ -62,6 +63,7 @@ function App() {
             hover={{ background: "#ff8906" }}
           />
         </main>
+        <MouseParticles g={1} color="random" cull="col,image-wrapper" />
       </GithubContext.Provider>
     </div>
   );
