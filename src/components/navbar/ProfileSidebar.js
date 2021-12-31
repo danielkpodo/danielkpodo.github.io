@@ -10,7 +10,7 @@ const ProfileSidebar = () => {
       <li>
         <div className="user-view">
           <div className="background">
-            <img src={pattern} alt="background for profile picture" />
+            <img src={pattern} alt="Profile background" />
           </div>
           <a href="#user">
             <img

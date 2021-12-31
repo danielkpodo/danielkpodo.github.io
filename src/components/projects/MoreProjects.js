@@ -9,6 +9,7 @@ const MoreProjects = () => {
         href={githubUser.user.html_url}
         className="btn waves-effect waves-light z-depth-4"
         target="_blank"
+        rel="noopener noreferrer"
       >
         More Projects
       </a>

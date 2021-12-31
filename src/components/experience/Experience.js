@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Training } from "../resources/Training";
 import Timeline from "./Timeline";
-
+/* eslint-disable no-unused-vars */
 const Experience = () => {
   const [timeline, setTimeline] = useState([...Training]);
 

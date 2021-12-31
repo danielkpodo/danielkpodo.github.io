@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import narh from "./assets/images/narh.svg";
+import narh from "./assets/images/profile-pic.png";
 import Social from "./social/Social";
 import Typed from "react-typed";
 import Fade from "react-reveal/Fade";
@@ -22,7 +22,14 @@ const Banner = () => {
             <h1>
               <span style={{ color: "#f25f4c" }}>Hi</span>, I'm{" "}
               <Typed
-                strings={["Narh", "Js Lover", "MERN Dev", "a Pythonista"]}
+                strings={[
+                  "Narh",
+                  "Js Lover",
+                  "Fullstack Dev",
+                  "MERN Dev",
+                  "a Python Dev",
+                  "Data Scientist",
+                ]}
                 typeSpeed={130}
                 backSpeed={10}
                 loop
@@ -38,7 +45,9 @@ const Banner = () => {
                 Contact me
               </a>
               <a
-                href="#!"
+                href="https://gitconnected.com/danielkpodo"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="waves-effect waves-light btn-small resume"
               >
                 View resume

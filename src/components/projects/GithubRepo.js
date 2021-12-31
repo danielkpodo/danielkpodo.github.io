@@ -4,6 +4,7 @@ import { GoPrimitiveDot } from "react-icons/go";
 import { GoRepoForked } from "react-icons/go";
 import { GoStar } from "react-icons/go";
 
+/* eslint-disable no-unused-vars */
 const GithubRepo = () => {
   return (
     <div className="col m6 repo-space z-depth-3">
@@ -27,7 +28,7 @@ const GithubRepo = () => {
                 <GoPrimitiveDot
                   style={{
                     color: "gold",
-                    fontSize: "13px"
+                    fontSize: "13px",
                   }}
                 />
                 Javascript

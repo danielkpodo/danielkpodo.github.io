@@ -1,9 +1,9 @@
-import React, { createContext } from "react";
+import { createContext } from "react";
 
 const GithubContext = createContext({
   user: {},
   pinned_repos: [],
-  userLoading: true
+  userLoading: true,
 });
 
 export default GithubContext;

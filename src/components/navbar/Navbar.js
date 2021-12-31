@@ -3,7 +3,7 @@ import Logo from "./Logo";
 import M from "materialize-css";
 import { MdSort } from "react-icons/md";
 import ProfileSidebar from "./ProfileSidebar";
-
+/* eslint-disable no-unused-vars */
 const Navbar = () => {
   const [navLinks, setNavLinks] = useState([
     { text: "Home", path: "#home" },
@@ -11,7 +11,7 @@ const Navbar = () => {
     { text: "Projects", path: "#projects" },
     { text: "Experience", path: "#experience" },
     { text: "Certifications", path: "#achievements" },
-    { text: "Contact", path: "#contact-me" }
+    { text: "Contact", path: "#contact-me" },
   ]);
 
   useEffect(() => {

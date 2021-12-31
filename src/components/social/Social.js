@@ -1,23 +1,32 @@
 import React, { useState } from "react";
-import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-import { FaRedditAlien } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaGooglePlus } from "react-icons/fa";
+import { GoMail } from "react-icons/go";
 
+/* eslint-disable no-unused-vars */
 const Social = () => {
   const [socialIcons, setIcons] = useState([
-    { icon: <FaGithub />, path: "", title: "Follow me on github" },
-    { icon: <FaFacebook />, path: "", title: "Friend me on facebook" },
-    { icon: <FaTwitter />, path: "", title: "Follow me on twitter" },
-    { icon: <FaLinkedinIn />, path: "", title: "Connect with me on linkedin" },
-    { icon: <FaRedditAlien />, path: "", title: "Follow me on reddit" }
+    {
+      icon: <FaGithub />,
+      path: "https://github.com/danielkpodo",
+      title: "Follow me on github",
+    },
+    {
+      icon: <FaTwitter />,
+      path: "https://twitter.com/narhKpodo",
+      title: "Follow me on twitter",
+    },
+    {
+      icon: <FaLinkedinIn />,
+      path: "https://www.linkedin.com/in/daniel-narh-kpodo/",
+      title: "Connect with me on linkedin",
+    },
   ]);
 
   const social = socialIcons.map((item, index) => (
     <a
-      href="google.com"
+      href={item.path}
       rel="noopener noreferrer"
       target="_blank"
       className="waves-effect waves-light hvr-sink"
@@ -37,7 +46,7 @@ const Social = () => {
         className="waves-effect waves-light hvr-sink google"
         title="Email me"
       >
-        <FaGooglePlus />
+        <GoMail />
       </a>
     </div>
   );

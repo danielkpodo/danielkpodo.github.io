@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { MdPersonPinCircle } from "react-icons/md";
 import Social from "../social/Social";
-import profile_img from "../assets/images/danny.jpg";
+import profile_img from "../assets/images/contct.png";
 import HeadShake from "react-reveal/HeadShake";
 import Pulse from "react-reveal/Pulse";
 import Fade from "react-reveal/Fade";
@@ -59,17 +59,14 @@ const Contact = () => {
                 </p>
                 <p>
                   Current Company:
-                  {githubUser.user.company ? (
-                    <a
-                      href="https://webbermill.com/"
-                      target="_blank"
-                      style={{ color: "#F25F4C", textDecoration: "underline" }}
-                    >
-                      {githubUser.user.company}
-                    </a>
-                  ) : (
-                    "Not Available"
-                  )}
+                  <a
+                    href="https://webbermill.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "#F25F4C", fontStyle: "italic" }}
+                  >
+                    &nbsp; Pending...
+                  </a>
                 </p>
                 <Social />
               </div>

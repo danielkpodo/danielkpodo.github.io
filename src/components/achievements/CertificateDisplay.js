@@ -1,15 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Fade from "react-reveal/Fade";
+
+/* eslint-disable no-unused-vars */
 
 const CertificateDisplay = (props) => {
-  const { image_path } = props.certs;
+  const { image_path, content } = props.certs;
   return (
     <div>
       <div className="col l6 m6 s12 cert-img">
         <img
           className="materialboxed responsive-img z-depth-4"
           src={image_path}
+          alt={content}
         />
       </div>
     </div>
@@ -17,7 +19,7 @@ const CertificateDisplay = (props) => {
 };
 
 CertificateDisplay.propTypes = {
-  certs: PropTypes.object.isRequired
+  certs: PropTypes.object.isRequired,
 };
 
 export default CertificateDisplay;
