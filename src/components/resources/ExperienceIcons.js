@@ -6,6 +6,7 @@ import { DiPython } from "react-icons/di";
 import { DiJsBadge } from "react-icons/di";
 import { MdTimeline } from "react-icons/md";
 import { BsPeople } from "react-icons/bs";
+import { FaNode } from "react-icons/fa";
 
 const School = () => {
   return <MdSchool />;
@@ -30,4 +31,8 @@ const Covid = () => {
   return <BsPeople />;
 };
 
-export { GoReact, School, Health, Python, Javascript, Covid };
+const Node = () => {
+  return <FaNode />;
+};
+
+export { GoReact, School, Health, Python, Javascript, Covid, FaNode };

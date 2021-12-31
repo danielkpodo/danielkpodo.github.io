@@ -5,42 +5,43 @@ import {
   Python,
   Javascript,
   Health,
-  Covid
+  FaNode,
+  Covid,
 } from "./ExperienceIcons";
 
 export const Training = [
   {
     id: 1,
-    title: "Lead Frontend Engineer 🧑‍ 	",
+    title: "Node.js Developer & Team Lead	",
     description:
-      "Wireframed and implemented the UI for almost every project. Model database design for backend. Responsible for mentoring a team of Junior Developers",
-    icon: <GoReact />,
+      "Worked as a Backend Enginner @webbermill. Responsible for writing API's for all applications. Assigned the role of a PM and Team Leader. Majority of efforts centered on tool selection and enforcing best practices among team mates",
+    icon: <FaNode />,
     iconBg: "#f25f4c",
-    date: "Jan 2020 - present",
+    date: "Aug 2020 - Dec 2021",
     tagline: "work",
-    position: "right"
+    position: "right",
   },
   {
     id: 2,
-    title: "TMA Children's Clinic (HIO) ",
+    title: "Frontend Engineer",
     description:
-      "Responsible for monthly data entry, anaylysis, and reporting. Lead investigator for covid19 suspected covid-19 cases",
-    icon: <Covid />,
+      "Wireframed and implemented the UI for almost every project. Model database design for backend. Responsible for mentoring a team of Junior Developers. Utilized React in developing majority of applications",
+    icon: <GoReact />,
     iconBg: "#f25f4c",
-    date: "Aug 2019 - July 2020",
+    date: "Jan 2019 - July 2020",
     tagline: "work",
-    position: "left"
+    position: "left",
   },
   {
     id: 3,
     title: "Zero to Mastery Academy ",
     description:
-      "Completed the zero to mastery web developer bootcamp and granted advanced python certification.Moreso,trained in a myriad of technologies ranging from javascript, git,react,nodejs,python, and data science among others",
+      "Completed the zero to mastery web developer bootcamp and granted advanced python certification.Moreso,trained in a myriad of technologies ranging from javascript, git,react,nodejs,python, and data science among others. Currently am an alumni",
     icon: <Python />,
     iconBg: "#f25f4c",
-    date: "2019 - 2020",
+    date: "Joined in 2019",
     tagline: "education",
-    position: "right"
+    position: "right",
   },
   {
     id: 4,
@@ -49,9 +50,9 @@ export const Training = [
       "Trained in responsive web design, advanced javascript, data structures and algorithms",
     icon: <Javascript />,
     iconBg: "#f25f4c",
-    date: "2018 - 2019",
+    date: "Joined 2018",
     tagline: "education",
-    position: "left"
+    position: "left",
   },
   {
     id: 5,
@@ -62,7 +63,7 @@ export const Training = [
     iconBg: "#f25f4c",
     date: "2018 - 2019",
     tagline: "work",
-    position: "right"
+    position: "right",
   },
   {
     id: 6,
@@ -73,6 +74,6 @@ export const Training = [
     iconBg: "#f25f4c",
     date: "2013 - 2017",
     tagline: "education",
-    position: "left"
-  }
+    position: "left",
+  },
 ];
