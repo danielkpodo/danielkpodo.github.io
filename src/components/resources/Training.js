@@ -57,7 +57,7 @@ export const Training = [
     id: 5,
     title: "Public Health Officer & Data Analyst 🏷️",
     description:
-      "Managed vaccine logistics and equipments at Tema General Hospital, Ghana. Drafted an emergency preparedness plan during the recent H1N1 outbreak. Managed, entered, and analyzed health data at the public health unit",
+      "Managed vaccine logistics and equipments at Tema General Hospital, Ghana. Drafted an emergency preparedness plan during the recent H1N1 outbreak, and was actively involved in contact tracing during the recent Lassa fever outbreak.  Managed, entered, and analyzed health data at the public health unit",
     icon: <Health />,
     iconBg: "#f25f4c",
     date: "2018 - 2019",
@@ -68,7 +68,7 @@ export const Training = [
     id: 6,
     title: "University of Health And Allied Sciences (UHAS) 📚",
     description:
-      "Obtained a Bachelor's degree in Public with specialty in Disease Control. Education centered on research, health statistics, and epidemiology. Whilst in my final year, I dabbled with PHP and SQL on the side",
+      "Obtained a Bachelor's degree in Public Health with specialty in Disease Control. Education centered on research, health statistics, and epidemiology. Whilst in my final year, I dabbled with PHP and SQL on the side",
     icon: <School />,
     iconBg: "#f25f4c",
     date: "2013 - 2017",
