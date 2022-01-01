@@ -1,6 +1,6 @@
 {
-  "homepage": "https://danielkpodo.github.io/personal-portfolio",
-  "name": "personal-portfolio",
+  "homepage": "https://danielkpodo.github.io",
+  "name": "danielkpodo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
