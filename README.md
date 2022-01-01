@@ -9,13 +9,13 @@ A portfolio project that emphasizes my skillset as a developer and the progressi
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/danielkpodo/personal-portfolio
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd personal-portfolio
 ```
 
 Install dependencies
@@ -36,7 +36,7 @@ Contributions are always welcome!
 
 ## Demo
 
-Insert gif or link to demo
+https://danielkpodo.github.io/personal-portfolio/
 
 ## Tech Stack
 
