@@ -4,7 +4,7 @@
   margin-bottom: 2rem;
   align-items: center;
   @include tablet {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   a {

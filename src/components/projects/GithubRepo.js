@@ -5,22 +5,22 @@ import { GoRepoForked } from "react-icons/go";
 import { GoStar } from "react-icons/go";
 
 /* eslint-disable no-unused-vars */
-const GithubRepo = () => {
+const GithubRepo = (props) => {
+  const {
+    repository: { repo, description, language, stars, link, forks },
+  } = props;
   return (
     <div className="col m6 repo-space z-depth-3">
-      <a href="">
+      <a href={link} target="_blank" rel="noopener noreferrer">
         <div className="repo">
           <div className="title">
             <p>
               <GoRepo style={{ fontSize: "25px", marginRight: "-15px" }} />
             </p>
-            <p> Crazy developer portfolio</p>
+            <p> {repo}</p>
           </div>
           <div className="repo-description">
-            <p>
-              Software Developer Portfolio Template that helps you showcase your
-              work and skills as a software developer.
-            </p>
+            <p>{description}</p>
           </div>
           <div className="repo-footer">
             <p>
@@ -31,19 +31,18 @@ const GithubRepo = () => {
                     fontSize: "13px",
                   }}
                 />
-                Javascript
+                {language}
               </span>
               &nbsp; &nbsp;
               <span>
                 <GoRepoForked style={{ color: "#000", fontSize: "15px" }} />
-                90
+                {forks}
               </span>
               &nbsp; &nbsp;
               <span>
-                <GoStar style={{ color: "red", fontSize: "15px" }} /> 20
+                <GoStar style={{ color: "red", fontSize: "15px" }} /> {stars}
               </span>
             </p>
-            <p>300 KB</p>
           </div>
         </div>
       </a>

@@ -201,7 +201,7 @@
 }
 @media (max-width: 769px) {
   .social-icons {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 .social-icons a {

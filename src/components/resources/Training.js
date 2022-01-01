@@ -6,7 +6,6 @@ import {
   Javascript,
   Health,
   FaNode,
-  Covid,
 } from "./ExperienceIcons";
 
 export const Training = [
@@ -14,7 +13,7 @@ export const Training = [
     id: 1,
     title: "Node.js Developer & Team Lead	",
     description:
-      "Worked as a Backend Enginner @webbermill. Responsible for writing API's for all applications. Assigned the role of a PM and Team Leader. Majority of efforts centered on tool selection and enforcing best practices among team mates",
+      "Worked as a Backend Enginner🙂. Responsible for writing API's for all applications. Assigned the role of a PM and Team Leader. Majority of efforts centered on tool selection and enforcing best practices among team mates",
     icon: <FaNode />,
     iconBg: "#f25f4c",
     date: "Aug 2020 - Dec 2021",
@@ -23,7 +22,7 @@ export const Training = [
   },
   {
     id: 2,
-    title: "Frontend Engineer",
+    title: "Frontend Engineer@HDX",
     description:
       "Wireframed and implemented the UI for almost every project. Model database design for backend. Responsible for mentoring a team of Junior Developers. Utilized React in developing majority of applications",
     icon: <GoReact />,
