@@ -7,7 +7,6 @@ import GithubContext from "../context/GithubContext";
 
 const Banner = () => {
   const githubUser = useContext(GithubContext);
-  console.log("User in Banner", githubUser.user);
   const userSpinkit =
     githubUser.userLoading === true ? (
       <p>Loading github profile...</p>
