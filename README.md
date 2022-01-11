@@ -36,7 +36,7 @@ Contributions are always welcome!
 
 ## Demo
 
-https://danielkpodo.github.io/personal-portfolio/
+https://danielkpodo.github.io/me
 
 ## Tech Stack
 
