@@ -9,7 +9,7 @@ A portfolio project that emphasizes my skillset as a developer and the progressi
 Clone the project
 
 ```bash
-  git clone https://github.com/danielkpodo/personal-portfolio
+  git clone https://github.com/danielkpodo/danielkpodo.github.io
 ```
 
 Go to the project directory
@@ -36,7 +36,7 @@ Contributions are always welcome!
 
 ## Demo
 
-https://danielkpodo.github.io/me
+https://danielkpodo.github.io/
 
 ## Tech Stack
 
