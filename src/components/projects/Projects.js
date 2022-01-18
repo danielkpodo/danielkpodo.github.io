@@ -12,7 +12,7 @@ const Projects = () => {
 
   async function getPinnedRepos(username) {
     try {
-      const url = `https://gh-pinned-repos-5l2i19um3.vercel.app/?username=${username}`;
+      const url = `https://gh-pinned-repos.egoist.sh/?username=${username}`;
       const response = await axios.get(url);
       const repos = response.data;
       setPinnedRepos(repos);
