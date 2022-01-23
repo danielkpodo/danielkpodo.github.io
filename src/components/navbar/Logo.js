@@ -3,7 +3,7 @@ import logo from "../assets/images/logo.png";
 
 const Logo = () => {
   return (
-    <a href="/me" className="brand-logo">
+    <a href="/" className="brand-logo">
       <img
         src={logo}
         alt="Daniel Narh logo"
